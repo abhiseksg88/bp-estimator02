@@ -131,4 +131,4 @@ if ppg_waveform:
 
         except Exception as e:
             st.error(f"❌ Prediction error: {e}")
-<INSERT_FINAL_CODE_FROM_CANVAS_HERE>
+
