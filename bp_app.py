@@ -8,8 +8,8 @@ from scipy.signal import butter, filtfilt
 from streamlit_webrtc import webrtc_streamer, VideoTransformerBase
 
 # Load trained LightGBM models
-sbp_model = joblib.load("models/real_sbp_model.pkl")
-dbp_model = joblib.load("models/real_dbp_model.pkl")
+sbp_model = joblib.load("real_sbp_model.pkl")
+dbp_model = joblib.load("real_dbp_model.pkl")
 
 calibration_ppg = []
 
